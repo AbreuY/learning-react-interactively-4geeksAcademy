@@ -27,13 +27,4 @@ Jumbotron.propTypes = {
 	buttonURL: PropTypes.string,
 };
 
-ReactDOM.render(
-	<Jumbotron
-		title="Welcome to react"
-		description="React is the most popular rendering library in the world"
-		buttonLabel="Go to the official website"
-		buttonURL="https://reactjs.org/"
-	/>,
-
-	document.querySelector("#myDiv")
-);
+ReactDOM.render(<Jumbotron />, document.querySelector("#myDiv"));
